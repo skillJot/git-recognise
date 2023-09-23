@@ -40,7 +40,7 @@ Start recognizing project contributions today in three simple steps:
 
 Begin showcasing your contributions in three simple steps:
 
-- Fork the [Verifiable Profile Repository](https://github.com/alenhorvat/verifiable-profile)
+- Fork the [Verifiable Profile Repository](https://github.com/alenhorvat/verifiable-profile-template)
   - Visit the repository
   - Click on the "Use this template" button on the top-right
     - Enter a name for your new repository. Repository name MUST be verifiable-profile
