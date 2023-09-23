@@ -20,7 +20,7 @@ While our model may not be as comprehensive as end-to-end verifiable frameworks,
 
 ## Features
 
-- **Contribution Templates**: We are presenting a simple contributions template, streamlining the process of acknowledging contributions in a machine-readable format. See the [Contribution Templates - Explained](#contributions-template-explained) section for more details. The template is evolving and we're inviting domain experts to contribute.
+- **Contribution Templates**: We are presenting a simple contributions template, streamlining the process of acknowledging contributions in a machine-readable format. See the [Contributions Schema](schemas/contributions/README.md) for more details. The template is evolving and we're inviting domain experts to contribute.
 
 - **Verifiable Profile**: Wa are introducing a simple verifiable profile template repository everyone can fork and set up within minutes. The repository contains your profile information and is used to elevate your professional profile by showcasing your contributions via git recognise. See the [Verifiable Profile](https://github.com/alenhorvat/verifiable-profile-template). The template is evolving and we're inviting domain experts to contribute.
 
