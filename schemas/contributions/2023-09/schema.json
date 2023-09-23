@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contributions schema",
+  "description": "This schema is used to express contributions and acknowledgements.",
+  "type": "object",
+  "properties": {
+    "project": {
+      "description": "Contains basic project information.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "Name of the project",
+          "type": "string"
+        },
+        "description": {
+          "description": "Project description",
+          "type": "string"
+        },
+        "website": {
+          "description": "Project website",
+          "type": "string",
+          "format": "uri"
+        },
+        "license": {
+          "description": "Project license",
+          "type": "string"
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "name",
+        "description",
+        "website"
+      ],
+      "additionalProperties": false
+    },
+    "contributors": {
+      "description": "A list of one or more contributors",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "githubHandler": {
+            "description": "GitHub handler of the contributor",
+            "type": "string"
+          },
+          "startDate": {
+            "description": "Start date of the contribution; YYYY-MM-DD",
+            "type": "string",
+            "format": "date"
+          },
+          "endDate": {
+            "description": "End date of the contribution; YYYY-MM-DD",
+            "type": "string",
+            "format": "date"
+          },
+          "role": {
+            "description": "Role of the contributor",
+            "type": "string"
+          },
+          "skills": {
+            "description": "Skills used in the project",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "githubHandler",
+          "role",
+          "startDate",
+          "skills"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "project",
+    "contributors"
+  ]
+}
