@@ -1,0 +1,20 @@
+# Schema Version. DO NOT MODIFY.
+version: 2023-09
+# Project Metadata
+project:
+  name: git-recognise
+  description: |
+    git-recognise is a fantastic project that aims to revolutionise skills recognition. It's all about making the world a better place through
+    technology and collaboration and represents a next step to fully verifiable information exchange.
+    
+  # Other relevant project information can be added here
+  website: https://github.com/alenhorvat/git-recognise
+  license: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+  keywords: [Open Source, Skills, Recognition, Git]
+
+# Contributors
+contributors:
+  - githubHandler: alenhorvat
+    role: Solution Architect
+    startDate: 2023-09-20
+    skills: [Domain Driven Design, Specifications]

@@ -4,6 +4,10 @@
   "description": "This schema is used to define an open and re-usable profile information model that can be managed in a git repository.",
   "type": "object",
   "properties": {
+    "version": {
+      "description": "JSON schema version. MUST match the schema version - directory name.",
+      "const": "2023-09"
+    },
     "givenName": {
       "description": "Given name as per schema.org",
       "type": "string"

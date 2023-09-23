@@ -31,7 +31,7 @@ While our model may not be as comprehensive as end-to-end verifiable frameworks,
 
 Start recognizing project contributions today in three simple steps:
 
-1. Copy the [contributions.yaml](contributions.yaml) to your project's repository (root folder).
+1. Copy the [contributions.yaml](contributions.yaml) to your project's repository (root folder). See the [contributions definition](schemas/contributions/README.md) for more information about the structure and supported claims.
 
 2. Add contributors and their roles/skills to the file according to the template.
 
