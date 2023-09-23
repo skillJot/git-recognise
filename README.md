@@ -22,7 +22,7 @@ While our model may not be as comprehensive as end-to-end verifiable frameworks,
 
 - **Contribution Templates**: We are presenting a simple contributions template, streamlining the process of acknowledging contributions in a machine-readable format. See the [Contribution Templates - Explained](#contributions-template-explained) section for more details. The template is evolving and we're inviting domain experts to contribute.
 
-- **Verifiable Profile**: Wa are introducing a simple verifiable profile template repository everyone can fork and set up within minutes. The repository contains your profile information and is used to elevate your professional profile by showcasing your contributions via git recognise. See the [Verifiable Profile](https://github.com/alenhorvat/verifiable-profile). The template is evolving and we're inviting domain experts to contribute.
+- **Verifiable Profile**: Wa are introducing a simple verifiable profile template repository everyone can fork and set up within minutes. The repository contains your profile information and is used to elevate your professional profile by showcasing your contributions via git recognise. See the [Verifiable Profile](https://github.com/alenhorvat/verifiable-profile-template). The template is evolving and we're inviting domain experts to contribute.
 
 - **Portfolio Viewer**: An online viewer that enables to view and check your portfolio and contributions. (coming soon)
 
