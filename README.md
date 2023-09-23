@@ -22,7 +22,7 @@ While our model may not be as comprehensive as end-to-end verifiable frameworks,
 
 - **Contribution Templates**: We are presenting a simple contributions template, streamlining the process of acknowledging contributions in a machine-readable format. See the [Contribution Templates - Explained](#contributions-template-explained) section for more details. The template is evolving and we're inviting domain experts to contribute.
 
-- **Verifiable Profile**: Wa are introducing a simple verifiable profile template repository everyone can fork and set up within minutes. The repository contains your profile information and is used to elevate your professional profile by showcasing your contributions via git recognise. See the [Portfolio Template - Explained](#portfolio-template-explained) section for more details. The template is evolving and we're inviting domain experts to contribute.
+- **Verifiable Profile**: Wa are introducing a simple verifiable profile template repository everyone can fork and set up within minutes. The repository contains your profile information and is used to elevate your professional profile by showcasing your contributions via git recognise. See the [Verifiable Profile](https://github.com/alenhorvat/verifiable-profile). The template is evolving and we're inviting domain experts to contribute.
 
 - **Portfolio Viewer**: An online viewer that enables to view and check your portfolio and contributions. (coming soon)
 
@@ -40,11 +40,13 @@ Start recognizing project contributions today in three simple steps:
 
 Begin showcasing your contributions in three simple steps:
 
-1. Clone the **verifiable-profile** repository (ensure it's public).
-
-2. Edit the **profile.yaml** by filling in your profile information and adding project repositories where you've contributed.
-
-3. Commit and push the changes to your repository.
+- Fork the [Verifiable Profile Repository](https://github.com/alenhorvat/verifiable-profile)
+  - Visit the repository
+  - Click on the "Use this template" button on the top-right
+    - Enter a name for your new repository. Repository name MUST be verifiable-profile
+    - Click on "Create repository from template".
+- Edit the **profile.yaml** by filling in your profile information and adding project repositories where you've contributed.
+- Commit and push the changes to your repository.
 
 Every time your project is using git-recognise, add the project to **profile.yaml**.
 
