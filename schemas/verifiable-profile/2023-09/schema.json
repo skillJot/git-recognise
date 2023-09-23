@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verifiable Profile schema",
+  "description": "This schema is used to define an open and re-usable profile information model that can be managed in a git repository.",
+  "type": "object",
+  "properties": {
+    "givenName": {
+      "description": "Given name as per schema.org",
+      "type": "string"
+    },
+    "familyName": {
+      "description": "Family name as per schema.org",
+      "type": "string"
+    },
+    "profilePhotoPath": {
+      "description": "Relative path to the profile photo stored in the repository.",
+      "type": "string",
+      "format": "uri"
+    },
+    "bio": {
+      "description": "Brief description, your interests, your professional background",
+      "type": "string"
+    },
+    "address": {
+      "description": "Location (of your work)",
+      "type": "string"
+    },
+    "projects": {
+      "description": "Absolute references to one or more git repositories",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    }
+  },
+  "required": ["giveName", "familyName", "profilePhotoPath", "bio", "address", "projects"]
+}
