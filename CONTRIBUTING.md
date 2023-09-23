@@ -13,7 +13,6 @@ All types of contributions are encouraged and valued. See the **Table of Content
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Table of Contents \<!-- omit in toc -j\>](#table-of-contents----omit-in-toc--j)
 - [Getting Started](#getting-started)
 - [Fork the Repository](#fork-the-repository)
 - [Making Contributions](#making-contributions)
