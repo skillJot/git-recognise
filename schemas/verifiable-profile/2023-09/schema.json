@@ -36,7 +36,31 @@
         "type": "string",
         "format": "uri"
       }
+    },
+    "profiles": {
+      "description": "With this property you can reference other git profiles you own at other online repositories. The profile will be processed only if it is cross-referenced, meaning, that the referenced repository must reference this profile.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["handler", "type"],
+        "properties": {
+          "handler": {
+            "type": "string"
+          },
+          "repository": {
+            "type": "string",
+            "enum": ["github", "gitlab", "bitbucket"]
+          }
+        }
+      }
     }
   },
-  "required": ["giveName", "familyName", "profilePhotoPath", "bio", "address", "projects"]
+  "required": [
+    "giveName",
+    "familyName",
+    "profilePhotoPath",
+    "bio",
+    "address",
+    "projects"
+  ]
 }
