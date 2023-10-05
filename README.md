@@ -1,32 +1,28 @@
-# git recognise - Open Contribution and Skills Recognition Initiative <!-- omit in toc -->
+# git recognise <!-- omit in toc -->
+
+Empowering Skill Endorsement: An initiative for verifiable endorsement of skills and contributions across all projects
 
 ## Table of Contents <!-- omit in toc -->
 
 - [Introduction](#introduction)
+- [How do I start?](#how-do-i-start)
 - [Features](#features)
-- [How can I, as a project owner, recognise and acknowledge contributions and skills](#how-can-i-as-a-project-owner-recognise-and-acknowledge-contributions-and-skills)
-- [How can I, as a project contributor, showcase my contributions and skills?](#how-can-i-as-a-project-contributor-showcase-my-contributions-and-skills)
+- [Roadmap](#roadmap)
 - [How to Contribute](#how-to-contribute)
 - [References](#references)
 - [License](#license)
 
 ## Introduction
 
-Projects are powered by individuals, and fostering an environment of open and transparent recognition of contributions and skills is crucial for the professional development of these individuals.
+Projects are powered by people, and fostering an environment of transparent and verifiable endorsement of skills and contributions is fundamental for the professional development of all contributors.
 
-The **git recognise** initiative offers a straightforward and transparent mechanism for projects to acknowledge the specific contributions made by individuals and the valuable skills they bring to the project. These acknowledgments and recognitions are not limited to those creating commits within a particular repository; they can extend to anyone contributing to the projects.
+The fundamental concept revolves around utilizing Git to acknowledge and endorse contributors' skills, which are showcased through their contributions.
 
-While our model may not be as comprehensive as end-to-end verifiable frameworks, we firmly believe that this simplified approach can significantly benefit individuals in their career paths. It achieves this by providing everyone with the opportunity to receive recognition and acknowledgment for their skills, all backed by a verifiable historical record using **git repositories**.
+**git recognise** introduces a straightforward and transparent mechanism for projects to acknowledge the specific contributions made by all contributors, not only those who push the code, and the valuable skills contributors bring to the project.
 
-## Features
+## How do I start?
 
-- **Contribution Templates**: We are presenting a simple contributions template, streamlining the process of acknowledging contributions in a machine-readable format. See the [Contributions Schema](schemas/contributions/README.md) for more details. The template is evolving and we're inviting domain experts to contribute.
-
-- **Verifiable Profile**: Wa are introducing a simple verifiable profile template repository everyone can fork and set up within minutes. The repository contains your profile information and is used to elevate your professional profile by showcasing your contributions via git recognise. See the [Verifiable Profile](https://github.com/alenhorvat/verifiable-profile-template). The template is evolving and we're inviting domain experts to contribute.
-
-- **Portfolio Viewer**: An online viewer that enables to view and check your portfolio and contributions. (coming soon)
-
-## How can I, as a project owner, recognise and acknowledge contributions and skills
+### Are you a project owner? Recognise and acknowledge contributions and skills
 
 Start recognizing project contributions today in three simple steps:
 
@@ -36,11 +32,11 @@ Start recognizing project contributions today in three simple steps:
 
 3. Notify your users that you're using git-recognise
 
-## How can I, as a project contributor, showcase my contributions and skills?
+### Are you a contributor? Showcase your contributions and skills
 
-Begin showcasing your contributions in three simple steps:
+Showcase your contributions in three simple steps:
 
-- Fork the [Verifiable Profile Repository](https://github.com/alenhorvat/verifiable-profile-template)
+- Fork the [Verifiable Profile Repository](https://github.com/skilljot/verifiable-profile-template)
   - Visit the repository
   - Click on the "Use this template" button on the top-right
     - Enter a name for your new repository. Repository name MUST be verifiable-profile
@@ -50,9 +46,23 @@ Begin showcasing your contributions in three simple steps:
 
 Every time your project is using git-recognise, add the project to **profile.yaml**.
 
-### View Your Verifiable Portfolio
+### Are you a contributor or verifier? Check out the Verifiable Portfolio
 
-(Coming Soon)
+Visit [SkillJot](https://www.skilljot.com) and enter your or user's GitHub handler. If user's projects are leveraging the power of git-recognise, you'll see it in the profile.
+
+## Features
+
+- **Contribution Templates**: We are presenting a simple contributions template, streamlining the process of acknowledging contributions in a machine-readable format. See the [Contributions Schema](schemas/contributions/README.md) for more details. The template is evolving and we're inviting domain experts to contribute.
+
+- **Verifiable Profile**: Wa are introducing a simple verifiable profile template repository everyone can fork and set up within minutes. The repository contains your profile information and is used to elevate your professional profile by showcasing your contributions via git recognise. See the [Verifiable Profile](https://github.com/alenhorvat/verifiable-profile-template). The template is evolving and we're inviting domain experts to contribute.
+
+- **Portfolio Viewer**: An online viewer that enables to view and check your portfolio and contributions. Visit [SkillJot](https://www.skilljot.com)
+
+## Roadmap
+
+- Align with the [All Contributors](https://github.com/all-contributors/all-contributors) specifications
+- Align with the [Open Badges](https://openbadges.org/) and [W3C Verifiable Credentials](https://www.w3.org/TR/vc-data-model-2.0/) data models
+- Improve the workflow
 
 ## How to Contribute
 
@@ -67,6 +77,9 @@ And if you like the project, but just don't have time to contribute, that's fine
 
 ## References
 
+- [All Contributors](https://github.com/all-contributors/all-contributors)
+- [Open Badges](https://openbadges.org/)
+- [W3C Verifiable Credentials](https://www.w3.org/TR/vc-data-model-2.0/)
 - [YAML](https://yaml.org/)
 
 ## License
